@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+
+    
+
+    <!-- 渲染优化 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" >
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--icon-->
+
+    
+    
+    
+    
+    
+
+
+    <!-- meta -->
+
+
+<title>魚九九 | 陰陽魚</title>
+
+
+
+
+
+    <!-- OpenGraph -->
+ 
+    <meta name="description" content="中國關於 CEPC 的爭論很多。嚴格來說我沒有資格討論這個問題。因爲在對 DESY 和 CERN 的相關工作進行觀察之後，我發現自己連他們在做東西的 10% 都不夠了解。那麼讓我通過這不到百分之十的了解，去評估值不值，就強人所難了。當然，我還是有資格反駁一下楊振寧這種、教實驗物理學家怎麼做實驗、的理論物理學家的。即使是還在一線工作的理論物理學家，即使他是愛因斯坦，也沒資格指導實驗物理學家怎麼做實驗">
+<meta property="og:type" content="article">
+<meta property="og:title" content="魚九九">
+<meta property="og:url" content="http://shadowquark.github.io/yyFish/2019/11/03/yu99/index.html">
+<meta property="og:site_name" content="陰陽魚">
+<meta property="og:description" content="中國關於 CEPC 的爭論很多。嚴格來說我沒有資格討論這個問題。因爲在對 DESY 和 CERN 的相關工作進行觀察之後，我發現自己連他們在做東西的 10% 都不夠了解。那麼讓我通過這不到百分之十的了解，去評估值不值，就強人所難了。當然，我還是有資格反駁一下楊振寧這種、教實驗物理學家怎麼做實驗、的理論物理學家的。即使是還在一線工作的理論物理學家，即使他是愛因斯坦，也沒資格指導實驗物理學家怎麼做實驗">
+<meta property="og:locale">
+<meta property="article:published_time" content="2019-11-03T18:56:52.000Z">
+<meta property="article:modified_time" content="2023-04-19T01:39:50.629Z">
+<meta property="article:author" content="yyFish">
+<meta name="twitter:card" content="summary_large_image">
+
+
+    
+<link rel="stylesheet" href="/yyFish/css/style/main.css">
+ 
+
+    
+    
+        <link rel="stylesheet" id="hl-default-theme" href="/yyFish/css/highlight/default.css" media="none" >
+        
+            <link rel="stylesheet" id="hl-dark-theme" href="/yyFish/css/highlight/dark.css" media="none">
+        
+    
+
+    
+    
+
+    
+    
+<link rel="stylesheet" href="/yyFish/css/style/dark.css">
+
+    
+<script src="/yyFish/js/darkmode.js"></script>
+
+
+
+     
+
+    <!-- custom head -->
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/yyFish/atom.xml" title="陰陽魚" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+
+    <body>
+        <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="app">
+            <header class="header">
+    <div class="header__left">
+        <a href="/yyFish/" class="button">
+            <span class="logo__text">陰陽魚</span>
+        </a>
+    </div>
+    <div class="header__right">
+        
+            <div class="navbar__menus">
+                
+                    <a href="https://shadowquark.github.io" class="navbar-menu button">卮言日出</a>
+                
+            </div>
+        
+        
+        
+
+        
+        
+    <a href="javaScript:void(0);" id="btn-toggle-dark">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+    </a>
+
+
+        
+            <a class="dropdown-icon button" id="btn-dropdown" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width='24' height='24' fill="none" stroke="currentColor" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"><path fill="currentColor" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path></svg></a>
+            <div class="dropdown-menus" id="dropdown-menus">
+                
+                    <a href="https://shadowquark.github.io" class="dropdown-menu button">卮言日出</a>
+                
+            </div>
+        
+    </div>
+</header>
+
+
+            <main class="main">
+    
+
+<div class="post-title">
+    <h1 class="post-title__text">
+        魚九九
+    </h1>
+    <div class="post-title__meta">
+        <a href="/yyFish/archives/2019/11/" class="post-meta__date button">2019-11-03</a>
+        
+ 
+        
+    
+    
+
+
+ 
+
+ 
+    </div>
+</div>
+
+
+
+<article class="post content-card">
+    <div class="post__header"></div>
+    <div class="post__content">
+        <p>中國關於 CEPC 的爭論很多。嚴格來說我沒有資格討論這個問題。因爲在對 DESY 和 CERN 的相關工作進行觀察之後，我發現自己連他們在做東西的 10% 都不夠了解。那麼讓我通過這不到百分之十的了解，去評估值不值，就強人所難了。當然，我還是有資格反駁一下楊振寧這種、教實驗物理學家怎麼做實驗、的理論物理學家的。即使是還在一線工作的理論物理學家，即使他是愛因斯坦，也沒資格指導實驗物理學家怎麼做實驗、做什麼實驗。更不要說一個已經不在科研一線頻繁發表論文的理論物理學家。從個人的工作角度說，我是做暗物質模型的。有 LHC 的數據，我可以用。有 CEPC 的數據，我也可以用。都沒有，還有直接探測、間接探測的數據可以用。有的是暗物質探測衛星、宇宙線探測器、暗物質探測器在建設和使用當中。所以說，我碰巧接觸了一下高能實驗，但算不上多麼懂這些實驗，也不指望他們吃飯。其次，據我所知，目前高能實驗從業者可以在自己工作生涯的任何時期退出物理，立刻就能找到工資數倍於科研機構的程序員或金融業工作。認爲他們想訛那一點點政府撥款是沒有道理的。我認識的每一個做高能實驗的人就業前景都一片光明，根本不存在爛在學術界的冗員問題。因爲高能實驗的人會用大量的複雜統計軟件和模擬軟件，現在還要用到大量機器學習，這些都是有相當開闊就業市場的工作積累。我有一次想去 DESY 面試一個職位。這個職位在 DESY 這個曾經的加速器裏面，但內容卻是給生物醫學成像、加速器模擬、探測器模擬做機器學習工具包。那是我第一次接觸到對撞機，哪怕是一個廢棄的對撞機，對於多麼龐大的研究領域有集羣效果。很多人總是說美國已經放棄了對撞機項目，但實際上美國建成過對撞機，只要是建好的、能用的，如 SLAC，至今仍在很多不同領域保持着極高的產出。比如我一直有關注 SLAC 一個組在做的激光實驗，他們爲驗證高能 QED 的相關理論提供了實驗基礎。一些人覺得 CERN 的很多貢獻，即使沒有 CERN，也會出現。比如 CERN 帶來了互聯網。其實沒有 CERN，人們也有建造互聯網的技術。但哪個公司會主動去修一條從康奈爾大學到歐洲大陸的跨海網線呢。因爲高能實驗的需要，推動了第一條洲際網線的建成。從此人們了解了建設成本、實際效果、相關風險，所以後續的互聯網鋪滿了整個世界。可以看出，認爲在這個過程中，CERN 沒有起到作用，等於在說『金融沒有用』。CERN 實現的是一次對洲際互聯網建設的融資，這種融資因爲不確定性、應用前景問題，在純資本投資中，不一定能成行。不是技術達到的產品，就都能變成實際市場中的產品。實際上在 CERN，可能已經有一半以上的研究和應用、與高能物理、發現超對稱粒子沒有什麼關係了。比如在 2018 年，CERN 首次實現了 3D 彩色 X 光成像。而我要面試的職位，正是要爲這類、加速粒子、穿過人體、生物成像提供一些計算機工具。只不過我去的德國電子對撞機，比不上 CERN 和 LHC 罷了。我之前一直好奇，爲什麼高能所不去介紹這些跟理論物理、高能實驗不相關的，對大衆更有幫助的研究項目呢。後來我明白了，他們也不懂。真正做高能實驗的人，也不一定能把 CERN 的項目的 20% 搞清楚。有大量的生物學家、化學家、工程師、乃至環境科學家都圍繞在 CERN 形成研究集羣周圍使用 LHC 的相關設施進行科研工作。如果問高能所的人 CERN DESY SLAC 目前都有哪些應用，除了高能物理相關，他們其實也說不清楚有哪些研究在被進行，只能說一句『有很多下游研究方向』。造成這種事實的原因，在於中國壓根沒有這樣的科研機構。隨口說了幾句，其實很多聰明的人應該已經明白了。CERN 這樣打着基礎物理旗號的研究組織，其實等於在用『探索基礎物理』進行融資，是一個金融項目。其涉及的產業、研究方向太多，根本就不是侷限於高能物理了。因爲中國目前缺乏這樣的研究機構，所以應該多於關注 CERN 目前有的相關研究組織，以及各種不同方向的成果。實際上 CERN 催生出的產品實在太多了。ROOT 可能是目前世界上最強大的統計工具。indico 是一個好用、易上手的會議網站平臺。inspire 是目前我用過的最好的文獻索引系統。成熟的 arxiv + 審稿並行制，平衡了學閥和同行評議。也包括集中了世界各地科研機構老舊電腦計算能力的格點計算中心。CERN 創造了前所未有的科研平臺和學科集羣，即使我們沒有能力再去組織起另一個 CERN。其強大的組織力、科研集羣效應，依然值得後代的研究者所特別著眼。至於建造 CEPC 值不值，建議先花點時間瞭解下 CERN 的人、DESY 的人、SLAC 的人目前都在做什麼。這也正是我在做的事情。</p>
+<span id="more"></span>
+
+    </div>
+     
+    <div class="post-footer__meta"><p>updated at 2023-04-19</p></div> 
+    <div class="post-entry__tags"></div> 
+</article>
+
+
+    <div class="nav">
+        <div class="nav__prev">
+            
+                <a href="/yyFish/2019/11/04/yu100/" class="nav__link">
+                    <div>
+                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
+                    </div>
+                    <div>
+                        <div class="nav__label">
+                            Previous Post
+                        </div>
+                        <div class="nav__title">
+                            魚一百
+                        </div>
+                    </div>
+                </a>
+            
+        </div>
+        <div class="nav__next">
+            
+                <a href="/yyFish/2019/11/01/yu98/" class="nav__link">
+                    <div>
+                        <div class="nav__label">
+                            Next Post
+                        </div>
+                        <div class="nav__title">
+                            魚九八
+                        </div>
+                    </div>
+                    <div>
+                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M434.944 790.624l-45.248-45.248L623.04 512l-233.376-233.376 45.248-45.248L713.568 512z" fill="#808080"></path></svg>
+                    </div>
+                </a>
+            
+        </div>
+    </div>
+
+
+
+
+
+</main>
+
+            <footer class="footer">
+    
+    
+
+
+    
+     
+ 
+
+ 
+    
+        
+        <p class="footer-copyright">
+            Copyright © 2023 <a href="/yyFish/">陰陽魚</a>
+        </p>
+    
+    
+    <p>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme - <a href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank">Cards</a></p>
+</footer>
+
+        </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+         
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+    
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+    </body>
+</html>
